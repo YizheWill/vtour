@@ -15,10 +15,10 @@ function BriefIntro() {
                 <img src='assets/img/icon-white-shield.png' alt='' />
               </i>
               <Box className='description'>
-                <h3>Modern & Safe Living</h3>
+                <h3>Professional & Resourceful</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mauris ac ornare felis. Nam velit neque, blandit id placerat
+                  ProperTour has a package of products with 3D Virtual Tours to
+                  maximize exposure and open your world to untapped viewers.
                 </p>
                 <a href='' className='btn btn-default btn-rounded arrow'>
                   Read More

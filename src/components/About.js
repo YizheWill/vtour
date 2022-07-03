@@ -23,17 +23,17 @@ function About() {
             </ul>
           </Box>
           <Box className='col-md-6 col-sm-6'>
-            <h3>Video presentation</h3>
-            <a
+            <h3>Demo Project</h3>
+            {/* <a
               href='http://vimeo.com/24506451'
               className='video-player video-popup'
               data-scroll-reveal='enter bottom and move 50px'
-            >
-              <i className='play-icon arrow_triangle-right'></i>
-              <Box className='has-overlay'>
-                <img src='assets/img/image-video.jpg' alt='' />
-              </Box>
-            </a>
+            > */}
+            {/* <i className='play-icon arrow_triangle-right'></i> */}
+            <Box className='has-overlay'>
+              <img src='assets/img/image-video.jpg' alt='' />
+            </Box>
+            {/* </a> */}
             <figure className='note'>
               Let’s check the benefits of this project from the architect
             </figure>

@@ -6,7 +6,22 @@ const Footer = () => {
     <footer id='page-footer' className='block background-is-dark'>
       <Box className='container'>
         <a href='#' className='brand'>
-          <img src='assets/img/logo.png' alt='' />
+          <Box
+            sx={{
+              display: 'flex',
+              flexDirection: 'row',
+              justifyContent: 'flex-start',
+              alignItems: 'center',
+              width: 500,
+            }}
+          >
+            <img
+              src='assets/img/logo.png'
+              alt=''
+              style={{ width: 40, marginRight: 10 }}
+            />
+            <Box pt={1}>ProperTour</Box>
+          </Box>
         </a>
         <Box className='row'>
           <Box className='col-md-4 col-sm-4'>
@@ -18,14 +33,14 @@ const Footer = () => {
           </Box>
           <Box className='col-md-8 col-sm-8'>
             <Box className='contact-data text-align-right'>
-              <figure>+1 (734) 123-4567</figure>
-              <a href='#'>hello@archits.com</a>
+              <figure>+1 (669) 309-9373</figure>
+              <a href='#'>willvirtualtour@gmail.com</a>
             </Box>
           </Box>
         </Box>
         <hr />
-        <Box className='note'>(C) 2016 All Rights Reserved</Box>
-        <Box className='numbers'>
+        <Box className='note'>(C) 2021 All Rights Reserved</Box>
+        {/* <Box className='numbers'>
           <h2>Bonus numbers.</h2>
           <Box className='row'>
             <Box className='col-md-2 col-sm-2'>
@@ -53,7 +68,7 @@ const Footer = () => {
               </Box>
             </Box>
           </Box>
-        </Box>
+        </Box> */}
         <Box className='to-top'>
           <a href='#page-top' className='arrow-up framed scroll'>
             <i className='arrow_up'></i>

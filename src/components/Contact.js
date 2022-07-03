@@ -12,8 +12,8 @@ const Contact = () => {
               className='col-md-6 col-sm-6'
               data-scroll-reveal='enter bottom and move 20px'
             >
-              <h3>Map</h3>
-              <Box className='map' id='map'></Box>
+              {/* <h3>Map</h3>
+              <Box className='map' id='map'></Box> */}
               <Box className='row'>
                 <Box className='col-md-6 col-sm-6'>
                   <h3>Address</h3>

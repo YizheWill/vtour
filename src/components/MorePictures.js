@@ -22,9 +22,9 @@ const MorePictures = () => {
                   data-owl-nav='0'
                   data-owl-dots='1'
                 >
-                  <img src='assets/img/gallery-01.jpg' alt='' />
-                  <img src='assets/img/image-video.jpg' alt='' />
-                  <img src='assets/img/gallery-02.jpg' alt='' />
+                  <img src='assets/img/gallery-01.png' alt='' />
+                  <img src='assets/img/gallery-02.png' alt='' />
+                  <img src='assets/img/gallery-03.jpg' alt='' />
                 </Box>
               </Box>
             </Box>

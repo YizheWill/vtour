@@ -8,8 +8,21 @@ function Header() {
         <Box className='container'>
           <Box className='wrapper'>
             <Box className='left'>
-              <a href='index-v1.html' className='brand'>
-                <img src='assets/img/logo.png' alt='' />
+              <a
+                href='index-v1.html'
+                className='brand'
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}
+              >
+                <img
+                  style={{ maxWidth: 60 }}
+                  src='assets/img/logo.png'
+                  alt=''
+                />
+                <Box>ProperTour</Box>
               </a>
             </Box>
             <Box className='right'>
@@ -54,9 +67,9 @@ function Header() {
           <Box className='hero-title'>
             <Box className='container'>
               <h1 className='animate'>
-                Get Ready.
+                Real Estate Photographer.
                 <br />
-                We're finishing!
+                3D Tours & More
               </h1>
               <form className='animate' id='form-hero'>
                 <label for='form-hero-email'>
@@ -95,19 +108,15 @@ function Header() {
         >
           <Box className='hero-slide'>
             <Box className='bg-transfer'>
-              <img src='assets/img/gallery-big-04.jpg' alt='' />
+              <img src='assets/img/gallery-big-01.png' alt='' />
             </Box>
           </Box>
           <Box className='hero-slide'>
             <Box className='bg-transfer'>
-              <img src='assets/img/gallery-big-01.jpg' alt='' />
+              <img src='assets/img/gallery-big-02.png' alt='' />
             </Box>
           </Box>
-          <Box className='hero-slide'>
-            <Box className='bg-transfer'>
-              <img src='assets/img/gallery-big-02.jpg' alt='' />
-            </Box>
-          </Box>
+          {/* can add more pics here */}
         </Box>
       </Box>
     </header>

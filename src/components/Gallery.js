@@ -19,7 +19,7 @@ const Gallery = () => {
       >
         <Box className='slide'>
           <Box className='container'>
-            <img src='assets/img/gallery-big-01.jpg' alt='' />
+            <img src='assets/img/gallery-big-01.png' alt='' />
             <Box className='description'>
               <h3 className='framed'>Front View</h3>
             </Box>
@@ -27,7 +27,7 @@ const Gallery = () => {
         </Box>
         <Box className='slide'>
           <Box className='container'>
-            <img src='assets/img/gallery-big-02.jpg' alt='' />
+            <img src='assets/img/gallery-big-02.png' alt='' />
             <Box className='description'>
               <h3 className='framed'>Garage</h3>
             </Box>
@@ -35,7 +35,7 @@ const Gallery = () => {
         </Box>
         <Box className='slide'>
           <Box className='container'>
-            <img src='assets/img/gallery-big-03.jpg' alt='' />
+            <img src='assets/img/gallery-big-03.png' alt='' />
             <Box className='description'>
               <h3 className='framed'>Back View</h3>
             </Box>
